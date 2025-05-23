@@ -23,9 +23,29 @@ class DataTypes{
         //for boolean(true or false ) which is not equal to 0 and 1 in java like other lang
         boolean bo = false;
 
-        System.out.println(bo);
-        System.out.println(num4);
-        System.out.println(c);
+        // System.out.println(bo);
+        // System.out.println(num4);
+        // System.out.println(c);
+
+
+        // ++++++++ literals ++++++++
+
+    //The value assigned to the DataTypes is literals
+    // literals can be used accordingly
+
+    // int num = 100; // basic number literals
+    // int num = 0b100; // binary literal
+    // int num = 0x7E; //hexa literal
+    //  int num =10_00_00_000 ; // helps in managing and counting 0s but prints without _
+
+    // double num = 12e10; 
+
+    // boolean num = 1; // boolean is true and false not int 1 or 0
+    // System.out.println(num); 
+
+    char d = 'k';
+    d++;
+    System.out.println(d);
 
 
     }
